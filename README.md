@@ -31,3 +31,46 @@ react-momentum/
 ├─ public/
 ├─ package.json
 └─ tailwind.config.js
+
+# What Sandbox is now
+**Sandbox** is a personal developer growth tracker designed to help developers log their learning journey, track challenges, and visualize progress over time.
+
+It is built as a lightweight alternative to scattered notes, replacing them with a structured system for intentional learning.
+## Core Features
+Learning tracker (concepts + notes)
+Challenge journal (bugs + solutions)
+Project logs (what was built and why)
+Dashboard overview
+Local storage persistence
+
+## Tech Stack
+- React (Vite)
+- JavaScript
+- Tailwind CSS
+- LocalStorage
+  
+## What Changed While Building This
+Sandbox didn’t just become a project.
+It changed how I think about learning itself. I stopped measuring progress by **“what I built today”* and started noticing **“how I’m improving over time.”*
+That shift is what **Sandbox** is really about.
+
+## What’s Next
+This is just version 1.
+Planned improvements:
+- Backend integration (Firebase / Node.js)
+- Extension for automatic tracking
+- Public developer profiles
+- 
+## Final Thought
+Sandbox started as a tool for myself.
+But I think every developer needs something like it.
+Because growth shouldn’t feel invisible.
+
+## Connect
+Built by Aisha Muhyiddeen AHmad
+Part of my developer growth journey.
+
+
+
+
+
