@@ -48,10 +48,13 @@ Local storage persistence
 - JavaScript
 - Tailwind CSS
 - LocalStorage
+## Live Demo
+https://sandbox-sooty-ten.vercel.app/
   
 ## What Changed While Building This
 Sandbox didn’t just become a project.
 It changed how I think about learning itself. I stopped measuring progress by **“what I built today”* and started noticing **“how I’m improving over time.”*
+
 That shift is what **Sandbox** is really about.
 
 ## What’s Next
@@ -60,14 +63,15 @@ Planned improvements:
 - Backend integration (Firebase / Node.js)
 - Extension for automatic tracking
 - Public developer profiles
-- 
+
 ## Final Thought
-Sandbox started as a tool for myself.
+> Sandbox started as a tool for myself.
 But I think every developer needs something like it.
 Because growth shouldn’t feel invisible.
 
 ## Connect
-Built by Aisha Muhyiddeen AHmad
+Built by Aisha Muhyiddeen Ahmad
+
 Part of my developer growth journey.
 
 
