@@ -1,0 +1,309 @@
+{
+  "Frontend": {
+    "JavaScript": [
+      "Logic/Algorithms",
+      "Async/Promises",
+      "DOM Manipulation",
+      "ES6+ Features",
+      "Debugging",
+      "Data Structures",
+      "Array/Object Methods",
+      "Event Handling",
+      "Variables & Data Types",
+      "Functions & Scope",
+      "Closures",
+      "Prototypes",
+      "Modules",
+      "Other"
+    ],
+    "TypeScript": [
+      "Type Definitions",
+      "Interfaces/Types",
+      "Generics",
+      "Type Inference",
+      "Configuration",
+      "Migration from JS",
+      "Third-party Types",
+      "Basic Types",
+      "Type Aliases",
+      "Enums",
+      "Union/Intersection Types",
+      "Utility Types",
+      "Decorators",
+      "Other"
+    ],
+    "React": [
+      "State Management",
+      "Component/Props",
+      "Hooks/Effects",
+      "Routing",
+      "Performance",
+      "API Integration",
+      "Context/Global State",
+      "Form Handling",
+      "Lifecycle Issues",
+      "Re-rendering",
+      "Components",
+      "Props",
+      "State",
+      "Context API",
+      "Custom Hooks",
+      "Other"
+    ],
+    "Vue": [
+      "Reactivity",
+      "Component Communication",
+      "Composition API",
+      "Routing",
+      "State Management",
+      "Directives",
+      "Performance",
+      "Components",
+      "Computed Properties",
+      "Watchers",
+      "Lifecycle Hooks",
+      "Other"
+    ],
+    "Angular": [
+      "Dependency Injection",
+      "Modules",
+      "RxJS/Observables",
+      "Routing",
+      "Forms",
+      "Change Detection",
+      "Services",
+      "Directives",
+      "Pipes",
+      "Other"
+    ],
+    "HTML": [
+      "Semantic Structure",
+      "Accessibility",
+      "Forms/Validation",
+      "SEO",
+      "Browser Compatibility",
+      "Semantic HTML",
+      "Media Elements",
+      "Canvas/SVG",
+      "Other"
+    ],
+    "CSS": [
+      "Layout/Positioning",
+      "Responsive Design",
+      "Flexbox/Grid",
+      "Animations",
+      "Browser Compatibility",
+      "Specificity Issues",
+      "Selectors",
+      "Box Model",
+      "CSS Variables",
+      "Pseudo-classes/elements",
+      "Other"
+    ],
+    "Tailwind CSS": [
+      "Configuration",
+      "Custom Utilities",
+      "Responsive Design",
+      "Dark Mode",
+      "Performance/Build Size",
+      "Component Patterns",
+      "Utility Classes",
+      "Plugins",
+      "Other"
+    ],
+    "SASS/SCSS": [
+      "Variables/Mixins",
+      "Nesting Issues",
+      "Build Configuration",
+      "Import/Module System",
+      "Functions",
+      "Inheritance",
+      "Control Directives",
+      "Other"
+    ]
+  },
+
+  "Backend": {
+    "Node.js": [
+      "Async/Event Loop",
+      "Module System",
+      "File System Operations",
+      "Streams",
+      "Error Handling",
+      "Performance",
+      "Memory Management",
+      "Async/Await",
+      "Other"
+    ],
+    "Express.js": [
+      "Routing",
+      "Middleware",
+      "Error Handling",
+      "Request/Response",
+      "Authentication",
+      "File Uploads",
+      "Template Engines",
+      "Static Files",
+      "Sessions/Cookies",
+      "Other"
+    ],
+    "Python": [
+      "Syntax/Logic",
+      "Data Structures",
+      "Object-Oriented Programming",
+      "Async/Concurrency",
+      "Package Management",
+      "Virtual Environments",
+      "Exception Handling",
+      "Decorators",
+      "Generators",
+      "Other"
+    ],
+    "Django": [
+      "Models/ORM",
+      "Views/URLs",
+      "Templates",
+      "Forms",
+      "Authentication",
+      "Migrations",
+      "Admin Panel",
+      "Middleware",
+      "Other"
+    ],
+    "Flask": [
+      "Routing",
+      "Templates",
+      "Database Integration",
+      "Authentication",
+      "Blueprints",
+      "Configuration",
+      "Forms",
+      "Sessions",
+      "Other"
+    ],
+    "PHP": [
+      "Syntax/Logic",
+      "Database Connection",
+      "Sessions/Cookies",
+      "File Handling",
+      "Security",
+      "Object-Oriented PHP",
+      "Forms/Superglobals",
+      "Error Handling",
+      "Other"
+    ],
+    "SQL": [
+      "Query Optimization",
+      "Joins",
+      "Indexing",
+      "Transactions",
+      "Schema Design",
+      "Data Migration",
+      "SELECT Queries",
+      "Aggregations",
+      "Stored Procedures",
+      "Normalization",
+      "Other"
+    ],
+    "MongoDB": [
+      "Schema Design",
+      "Queries/Aggregation",
+      "Indexing",
+      "Relationships",
+      "Performance",
+      "CRUD",
+      "Aggregation Pipeline",
+      "Transactions",
+      "Other"
+    ],
+    "REST APIs": [
+      "Endpoint Design",
+      "Authentication/Authorization",
+      "Error Handling",
+      "Validation",
+      "CORS",
+      "Rate Limiting",
+      "Documentation",
+      "HTTP Methods",
+      "Status Codes",
+      "Pagination",
+      "Other"
+    ],
+    "GraphQL": [
+      "Schema Design",
+      "Resolvers",
+      "Queries/Mutations",
+      "Authentication",
+      "N+1 Problem",
+      "Caching",
+      "Types",
+      "Subscriptions",
+      "Other"
+    ]
+  },
+
+  "General": {
+    "Git/Version Control": [
+      "Merge Conflicts",
+      "Branching Strategy",
+      "Rebase vs Merge",
+      "Commit History",
+      "Collaboration",
+      "Undoing Changes",
+      "Pull Requests",
+      "Git Flow",
+      "Other"
+    ],
+    "DevOps/Deployment": [
+      "Build Configuration",
+      "Environment Variables",
+      "CI/CD Pipeline",
+      "Server Configuration",
+      "Domain/DNS",
+      "SSL/HTTPS",
+      "Performance",
+      "Other"
+    ],
+    "Testing": [
+      "Test Setup",
+      "Mocking/Stubbing",
+      "Async Testing",
+      "Coverage",
+      "E2E Testing",
+      "Test Organization",
+      "Assertions",
+      "Testing Libraries",
+      "Other"
+    ],
+    "Build Tools": [
+      "Configuration",
+      "Build Optimization",
+      "Development Server",
+      "Code Splitting",
+      "Module Resolution",
+      "Plugin Issues",
+      "Webpack",
+      "Vite",
+      "Babel",
+      "Other"
+    ],
+    "Package Managers": [
+      "Dependency Conflicts",
+      "Version Management",
+      "Lock Files",
+      "Scripts",
+      "Security Vulnerabilities",
+      "Semantic Versioning",
+      "Other"
+    ],
+    "VS Code/IDE": [
+      "Extension Issues",
+      "Configuration",
+      "Debugging Setup",
+      "Shortcuts/Productivity",
+      "Linting/Formatting",
+      "Snippets",
+      "Other"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-sandbox-navy: #141B24;
+  --color-sandbox-ghost: #F3F4F6;
+  --color-sandbox-card: #1C252E;
+
+}
+
