@@ -126,7 +126,7 @@ function About() {
           className='space-y-6 text-sandbox-ghost'>
             <p className='text-lg md:text-xl font-medium max-w-4xl'>I didn’t build Sandbox to prove I could code; I built it because I needed a place to see who I was becoming.</p>
             <div className='space-y-3'>
-              <p>I was learning quietly, consistently, solving bugs, pushing through confusion — but none of it felt visible. And when growth isn’t visible, doubt gets louder.</p>
+              <p>I was learning quietly, consistently, solving bugs, pushing through confusion, but none of it felt visible. And when growth isn’t visible, doubt gets louder.</p>
               <p className='italic text-sandbox-ghost/80'>You start to question if the effort is enough.</p>
               <p>I had no system to show me the hours I had invested. The bugs I had solved. The concepts that once confused me but now made sense.</p>
             </div>
@@ -144,8 +144,8 @@ function About() {
               <p>It isn't another productivity tool. It’s a system for documenting the journey, not just the destination. A place where every bug solved and every concept mastered becomes a proof of who you are becoming.</p>
             </div>
             <div className='flex gap-2 items-start pt-2'>
-              <div className="h-18 md:h-8 w-0.5 bg-sandbox-ghost/80 mt-2 rounded-full"></div>
-            <p className='text-lg md:text-xl font-semibold italic leading-snug mt-2'>From the first line of code to the final deployment, it’s built from lived experience — not assumptions.</p>
+              <div className="h-12 md:h-8 w-0.5 bg-sandbox-ghost/80 mt-2 rounded-full"></div>
+            <p className='md:text-xl font-semibold italic leading-snug mt-2'>From the first line of code to the final deployment, it’s built from lived experience — not assumptions.</p>
             </div>
             <div className='space-y-2'>
               <p>If you’re using Sandbox, I hope it helps you see what you’ve already built.</p>
