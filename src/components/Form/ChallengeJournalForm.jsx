@@ -11,7 +11,7 @@ function ChallengeJournalForm({onAddChallenge, closeForm, initialChallengeData})
   
    const handleSubmit = (data) => {
      onAddChallenge(data) 
-      setTimeout(() => {closeForm()}, 1000);
+      closeForm()
       
 
    }

@@ -13,8 +13,7 @@ function LearnForm({onAddRecord, closeForm, initialData}) {
    const handleSubmit = (data) => {
      
       onAddRecord(data)
-
-      setTimeout(() => {closeForm()}, 1000);
+      closeForm()
       
    } 
 

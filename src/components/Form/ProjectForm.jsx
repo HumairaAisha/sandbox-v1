@@ -32,8 +32,6 @@ function ProjectForm({onAddProject, initialProjectData}) {
       ...data,
       image: reader.result,
     })
-    
-      setTimeout(() => {}, 1000);
        }
    
    reader.readAsDataURL(file)

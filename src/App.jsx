@@ -58,7 +58,7 @@ function App() {
     <Toaster position="top-right" reverseOrder={false}
     toastOptions={{
       success: {
-        duration:1500,
+        duration:2000,
         style: {
           width: "320px",
           background:"#0F172A",
