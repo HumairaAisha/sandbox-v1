@@ -9,7 +9,6 @@ function ProjectJournalForm({onAddProjectRecord, initialProjectJournalData}) {
 
   const handleSubmit = (data) => {
       onAddProjectRecord(data)
-      setTimeout(() => 1000)
       
 
   }

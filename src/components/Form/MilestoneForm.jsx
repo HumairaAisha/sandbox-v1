@@ -14,7 +14,7 @@ function MilestoneForm({onAddMilestone, closeForm, initialData}) {
 
    const handleSubmit = (data) => {
       onAddMilestone(data)
-      setTimeout(() => {closeForm()}, 1000);
+      closeForm()
    }
   return (
     <div>
