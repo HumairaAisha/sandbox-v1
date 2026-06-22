@@ -12,7 +12,7 @@ function Features() {
     <section id="features" className="scroll-m-10">
       <div 
       
-      className="min-h-screen px-4 py-20 md:py-10 justify-center bg-sandbox-navy">
+      className="min-h-screen px-4 py-8 md:py-10 justify-center bg-sandbox-navy">
         <BadgeLabel title={"CORE FEATURES"}/>
       <motion.div 
       variants={popIn}

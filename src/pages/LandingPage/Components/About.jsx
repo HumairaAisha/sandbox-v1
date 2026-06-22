@@ -50,7 +50,7 @@ function About() {
     <>
     
     <section id="about" className="scroll-m-10">
-      <div className="min-h-screen py-6 px-4 bg-sandbox-navy">
+      <div className="min-h-screen py-20 px-4 bg-sandbox-navy">
       <div className="flex flex-col">
         
       <div className="max-w-4xl mx-auto px-6 flex flex-col justify-center">
@@ -95,7 +95,7 @@ function About() {
           {/*   <div className='flex items-start py-1 px-1.5 max-w-5xl mx-auto'>
           <p className=' bg-sandbox-card border border-sandbox-ghost/50 rounded-full py-1 px-3 mb-2 text-sandbox-ghost font-semibold font-mono tracking-widest uppercase'>The Narrative</p>
         </div> */}
-        <div className='max-w-5xl mx-auto bg-sandbox-card px-6 md:px-10 py-10 rounded-2xl shadow-sm'>
+        <div className='max-w-4xl mx-auto bg-sandbox-card px-5 sm:px-6 md:px-10 py-8 md:py-10 rounded-2xl shadow-sm'>
           
           <div className='flex items-start gap-4 mb-8'>
             <div className="h-14 w-1 bg-sandbox-ghost/70 mt-2 rounded-full"></div>
@@ -106,7 +106,7 @@ function About() {
          whileInView="whileInView"
          transition={{duration: 0.5}}
          viewport={{once: false, amount: 0.5}}
-            className='text-3xl md:text-4xl font-bold text-sandbox-ghost leading-tight'>Behind the Build</motion.h2>
+            className='text-2xl sm:text-3xl md:text-4xl font-bold text-sandbox-ghost leading-tigh'>Behind the Build</motion.h2>
             <motion.p 
             variants={slideLeft}
             initial="initial"
@@ -123,15 +123,15 @@ function About() {
          whileInView="whileInView"
          transition={{duration: 0.8}}
          viewport={{once: false, amount: 0.2}}
-          className='space-y-6 text-sandbox-ghost'>
+          className='space-y-5 text-[15px] md:text-base leading-8 text-sandbox-ghost'>
             <p className='text-lg md:text-xl font-medium max-w-4xl'>I didn’t build Sandbox to prove I could code; I built it because I needed a place to see who I was becoming.</p>
-            <div className='space-y-3'>
+            <div className='space-y-2 md:space-y-3'>
               <p>I was learning quietly, consistently, solving bugs, pushing through confusion, but none of it felt visible. And when growth isn’t visible, doubt gets louder.</p>
               <p className='italic text-sandbox-ghost/80'>You start to question if the effort is enough.</p>
               <p>I had no system to show me the hours I had invested. The bugs I had solved. The concepts that once confused me but now made sense.</p>
             </div>
 
-            <div className='space-y-3'>
+            <div className='space-y-2 border-l border-sandbox-ghost/30 pl-4'>
               <p>As developers, we spend so much time in the unseen — figuring things out, getting stuck, the things that don’t work before they finally do. But when that process isn’t documented, it fades.</p>
       
               <p className='text-sandbox-ghost/80'>Challenges feel like failures instead of experience. Progress feels invisible. Doubt gets louder.</p>
@@ -145,7 +145,7 @@ function About() {
             </div>
             <div className='flex gap-2 items-start pt-2'>
               <div className="h-12 md:h-8 w-0.5 bg-sandbox-ghost/80 mt-2 rounded-full"></div>
-            <p className='md:text-xl font-semibold italic leading-snug mt-2'>From the first line of code to the final deployment, it’s built from lived experience — not assumptions.</p>
+            <p className='text-sm md:text-xl font-semibold italic leading-snug mt-2'>From the first line of code to the final deployment, it’s built from lived experience — not assumptions.</p>
             </div>
             <div className='space-y-2'>
               <p>If you’re using Sandbox, I hope it helps you see what you’ve already built.</p>
@@ -161,7 +161,7 @@ function About() {
          whileInView="whileInView"
          transition={{duration: 0.5}}
          viewport={{once: false, amount: 0.2}}
-           className='flex flex-col items-end mt-10 text-sandbox-ghost/90'>
+           className='flex flex-col items-end mt-14 pt-6 border-t border-sandbox-ghost/10 text-sandbox-ghost/90'>
             <h4 className='font-semibold text-lg'>Aisha Muhyiddeen Ahmad</h4>
             {/* <p className=''>Founder, Sandbox</p> */}
           </motion.div>
@@ -191,7 +191,7 @@ function About() {
 
    {/* Our Standard  */}
    <section>
-      <div className='pt-4 pb-15 max-w-5xl mx-auto flex flex-col items-center justify-center'>
+      <div className='py-15 max-w-5xl mx-auto flex flex-col items-center justify-center'>
         <BadgeLabel title={"The Standard"}/>
          <div className='py-4 px-6 flex flex-col justify-center'>
             <motion.h2
