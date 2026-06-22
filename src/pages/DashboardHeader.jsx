@@ -12,7 +12,13 @@ function DashboardHeader() {
       setHasLoggedIn(true)
     }
  },[user, hasLoggedIn])
- 
+ let greeting = "Welcome"
+
+if (user && isFirstVisit) {
+  greeting = `Welcome, ${firstName}!`
+} else if (user) {
+  greeting = `Welcome back, ${firstName}!`
+}
   return (
     <div className="pb-2">
       <div className='p-1'>
