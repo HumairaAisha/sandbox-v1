@@ -3,17 +3,22 @@ import { useEffect } from "react"
 
 function DashboardHeader() {
   const [user] = useLocalStorage("user", null)
-  const [hasLoggedIn, setHasLoggedIn] = useLocalStorage('hasLoggedIn', null)
+  const [hasLoggedIn, setHasLoggedIn] = useLocalStorage('hasLoggedIn', false)
   const firstName = user?.name ? user.name.split(' ')[0] : null
-  const isFirstVisit = user && hasLoggedIn === null
+  const isFirstVisit = user && !hasLoggedIn
 
  useEffect(() => {
-   if (user && hasLoggedIn === null) {
+   if (user && !hasLoggedIn) {
       setHasLoggedIn(true)
     }
- },[user])
- const greeting = isFirstVisit ? `Welcome, ${firstName}!` : user ? `Welcome back, ${firstName}!`
-  : "Welcome"
+ },[user, hasLoggedIn])
+ let greeting = "Welcome"
+
+if (user && isFirstVisit) {
+  greeting = `Welcome, ${firstName}!`
+} else if (user) {
+  greeting = `Welcome back, ${firstName}!`
+}
   return (
     <div className="pb-2">
       <div className='p-1'>
