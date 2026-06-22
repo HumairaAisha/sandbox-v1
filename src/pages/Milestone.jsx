@@ -1,5 +1,6 @@
 import { useState } from "react"
 import useLocalStorage from "../components/data/useLocalStorage"
+import { sendEvent } from "../lib/analytics"
 
 import Modal from "../components/Form/Modal"
 import MilestoneForm from "../components/Form/MilestoneForm"
@@ -53,6 +54,7 @@ function Milestone() {
     const safeRecords = Array.isArray(milestoneRecords) ? milestoneRecords : [];
     const updateMilestone = [...safeRecords, {...newMilestone, id: Date.now()}] 
     setMilestoneRecords(updateMilestone)
+    sendEvent("create", "milestone");
      toast.success("You're doing great! \n You Just Documented a Moment of Growth")
    
 

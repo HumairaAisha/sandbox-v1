@@ -12,7 +12,7 @@ import SelectOptionField from "../components/UI/ReusableForm/SelectOptionField";
 import toast from "react-hot-toast";
 import Pagination from "../components/UI/Pagination";
 import ConfirmModal from "../components/UI/ConfirmModal";
-
+import { sendEvent } from "../lib/analytics"
 
 function ProjectJournal() {
   const location = useLocation()
@@ -65,6 +65,7 @@ function ProjectJournal() {
     }
     const updatedProjectJournal = [...safeRecords, journalEntry]
     setProjectJournalRecords (updatedProjectJournal)
+    sendEvent("create", "journal")
     toast.success("Great \n you documented a project journal")
     closeProjectJournalForm()
   }

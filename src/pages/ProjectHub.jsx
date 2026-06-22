@@ -1,5 +1,6 @@
 import { useContext, useState } from "react"
 import { DashboardStatsContext } from "../CustomHook/DashboardStatsContext"
+import { sendEvent } from "../lib/analytics"
 
 import Heading from "../components/UI/Heading"
 import PrimaryButton from "../components/UI/PrimaryButton"
@@ -48,6 +49,7 @@ function ProjectHub() {
   }
     const updateProjectRecord = [...newUpdatedProjectRecord, {...newProjectRecord, id:Date.now() }]
     setNewUpdatedProjectRecord(updateProjectRecord)
+    sendEvent("create", "project")
     toast.success("Awesome! \n Your project has been successfully added.")
     closeProjectModal()
   }

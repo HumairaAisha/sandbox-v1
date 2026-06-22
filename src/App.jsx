@@ -1,5 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
+import { sendEvent } from "./lib/analytics";
+import { useEffect } from "react";
 
 import Layout from './components/layout/Layout'
 import Dashboard from './pages/Dashboard'
@@ -19,7 +21,14 @@ import RootRedirect from "./components/RootRedirect";
 
 
 function App() {
-  
+  useEffect(() => {
+  const lastSession = sessionStorage.getItem("sessionLogged");
+
+  if (!lastSession) {
+    sendEvent("active", "session");
+    sessionStorage.setItem("sessionLogged", "true");
+  }
+}, []);
   return (
     <>
     

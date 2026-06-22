@@ -1,5 +1,6 @@
 import { useContext, useState } from "react"
 import { DashboardStatsContext } from "../CustomHook/DashboardStatsContext"
+import { sendEvent } from "../lib/analytics"
 
 import Modal from "../components/Form/Modal"
 import ChallengeJournalForm from "../components/Form/ChallengeJournalForm"
@@ -48,6 +49,7 @@ function Challenges() {
       const updateChallengeRecord = [...newUpdatedChallengeRecords, {...newChallengeRecord, id:Date.now()}]
 
       setNewUpdatedChallengeRecords(updateChallengeRecord)
+      sendEvent("create", "challenge")
       toast.success('New Challenge Fixed. \n Growth Documented!')
 
   }

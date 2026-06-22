@@ -1,5 +1,6 @@
 import { useContext, useState } from "react"
 import { DashboardStatsContext } from "../CustomHook/DashboardStatsContext"
+import { sendEvent } from "../lib/analytics"
 
 import Modal from "../components/Form/Modal"
 import PrimaryButton from "../components/UI/PrimaryButton"
@@ -67,6 +68,7 @@ const closeDetailModal = () => {
     
    const updatedRecords = [...records, {...newRecord, id:Date.now()}];
     setRecords(updatedRecords);
+    sendEvent("create,", "progress")
      toast.success("Progress log successfully")
   }
 
