@@ -34,13 +34,14 @@ function StatsCard({id, title, notes, value, auto, iconName}) {
   
   function decrement() {
     if(auto) return
+    if (count > 0) {
+      setCount(count - 1)
+    }
     if (title === "Confidence Level") {
       if (count > 0) {
         setCount(count - 1)
       }
-    } else {
-      setCount(count - 1)
-    }
+    } 
   }   
    const IconComponent = iconMap[iconName] || iconMap.fallback
   return (
