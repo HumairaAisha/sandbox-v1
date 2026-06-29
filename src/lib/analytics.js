@@ -14,6 +14,7 @@ function getUserId() {
 export function sendEvent(event, category) {
   fetch(SHEET_URL, {
     method: "POST",
+    mode: "no-cors",
     body: JSON.stringify({
       userId: getUserId(),
       event,
