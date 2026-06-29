@@ -10,6 +10,7 @@ import ReusableCard from "../components/UI/ReusableCard"
 import DetailModal from "../components/UI/DetailModal"
 import ViewMoreButton from "../components/UI/ViewMoreButton"
 import toast from "react-hot-toast"
+import Pagination from "..//components/UI/Pagination"
 
 
 
@@ -38,7 +39,8 @@ function Challenges() {
   const handleEditForm = (item) => {
     setIsEditing(item)
     setModalOpen(true)
-    closeChallengeForm()
+    setOpenDetailModal(false)
+    
   }
 
 
