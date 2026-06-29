@@ -7,8 +7,8 @@ import ChallenegCategoryField from "../UI/ReusableForm/ChallenegCategoryField"
 import SecondaryButton from "../UI/SecondaryButton"
 
 
-function ChallengeJournalForm({onAddChallenge, closeForm, initialChallengeData}) {
-  
+function ChallengeJournalForm({onAddChallenge, closeForm, initialChallengeData }) {
+  console.log("Initial Data in Form:", initialChallengeData);
    const handleSubmit = (data) => {
      onAddChallenge(data) 
       closeForm()
@@ -18,9 +18,10 @@ function ChallengeJournalForm({onAddChallenge, closeForm, initialChallengeData})
   return (
     <div>
       <MyForm  onSubmit={handleSubmit}
+      key={initialChallengeData?.id || 'new'}
       defaultValues={initialChallengeData || {challengeRecords: ""}}
       >
-      <FormText title={"Document What You Fixed"}
+      <FormText title={initialChallengeData ?  "Edit Challenge Data" : "Document What You Fixed"}
       text={"Because every fix carries a story of patience, persistence, and growth."}/>
       <InputFieldNum
       name="date"

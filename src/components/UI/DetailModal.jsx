@@ -4,9 +4,17 @@ import { Pencil, Trash2 } from 'lucide-react';
 function DetailModal({data, fields, onClose, onEdit, onDelete, className}) {
 
   const actions = [
-        {label: "Edit", type: "neutral",  onClick: onEdit},
-        {label: "Delete", type: "danger",  onClick: onDelete}
-        ]
+        onEdit && {
+    label: "Edit",
+    type: "neutral",
+    onClick: () => onEdit(data),
+  },
+  onDelete && {
+    label: "Delete",
+    type: "danger",
+    onClick: () => onDelete(data),
+  },
+        ].filter(Boolean)
   const filtertedArray = actions.filter(action => action.onClick)
   return (
 
